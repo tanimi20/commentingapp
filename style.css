@@ -1,0 +1,62 @@
+* {
+  font-family: "poppins";
+  margin: 0;
+}
+.postContainer {
+  margin: auto;
+  max-width: fit-content;
+}
+.postWrapper {
+}
+img {
+  /* display: none; */
+  width: 300px;
+  border-radius: 10px;
+  height: 450px;
+  object-fit: cover;
+}
+#post {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+#post:hover{
+    scale: 1.1;
+}
+svg {
+  width: 35px;
+  height: 35px;
+}
+.inputWrap{
+    display: flex;
+    
+}
+#primaryCommentInputBox{
+    font-weight: 500;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #664cc2;
+}
+.reply{
+  margin-left: 20px;
+  border: 1px solid red;
+ 
+}
+ul{
+ 
+  list-style: none;
+ 
+}
+li{
+  
+}
+#commentContainer{
+  margin-left: -35px;
+  font-size: 14px;
+  margin-top: 5px;
+}
